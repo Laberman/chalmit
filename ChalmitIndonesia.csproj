@@ -1,0 +1,203 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{2AF562B1-6F88-4874-88B8-29BFE3A1D9D1}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ChalmitIndonesia</RootNamespace>
+    <AssemblyName>ChalmitIndonesia</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="contact.php" />
+    <Content Include="distribution.htm" />
+    <Content Include="seismic.htm" />
+    <Content Include="electrical.htm" />
+    <Content Include="lightning.htm" />
+    <Content Include="Images\autopanel.gif" />
+    <Content Include="Images\distpanel.gif" />
+    <Content Include="Images\internalpanel.gif" />
+    <Content Include="Images\maindisb.gif" />
+    <Content Include="Images\mediumvolt.gif" />
+    <Content Include="Images\motorcenter.gif" />
+    <Content Include="Images\syncpanel.gif" />
+    <Content Include="exproof.htm" />
+    <Content Include="sumi.htm" />
+    <Content Include="Scripts\app\app.js" />
+    <Content Include="Scripts\libs\require.js" />
+    <Content Include="services.htm" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Images\logo.png" />
+    <Content Include="Images\products\cable-gland-explosionproof.jpeg" />
+    <Content Include="Images\products\conduit-fitting.jpeg" />
+    <Content Include="Images\products\conduit.jpeg" />
+    <Content Include="Images\products\emergency-lighting.jpeg" />
+    <Content Include="Images\products\explosionproof-grounding-system.jpeg" />
+    <Content Include="Images\products\gfci.jpeg" />
+    <Content Include="Images\products\junction-box-enclosures.jpeg" />
+    <Content Include="Images\products\lcs-local-control-station.jpeg" />
+    <Content Include="Images\products\lighting-explosionproof.jpeg" />
+    <Content Include="Images\products\lighting-fixture-system.gif" />
+    <Content Include="Images\products\obstruction-light.jpeg" />
+    <Content Include="Images\products\panel-explosionproof.jpeg" />
+    <Content Include="Images\products\panel.jpeg" />
+    <Content Include="Images\products\plug-socket-receptacle-explosionproof.jpeg" />
+    <Content Include="Images\products\portable-handlamp.jpeg" />
+    <Content Include="Images\products\powercable.jpg" />
+    <Content Include="Images\products\runaway-lighting.jpeg" />
+    <Content Include="Images\products\static-discharge-reel.jpeg" />
+    <Content Include="Images\welcome.jpg" />
+    <Content Include="aboutus.htm" />
+    <Content Include="index.htm" />
+    <Content Include="product.htm" />
+    <Content Include="Scripts\libs\angular.min.js" />
+    <Content Include="Scripts\libs\bootstrap.min.js" />
+    <Content Include="Styles\bootstrap.css" />
+    <Content Include="Styles\min-css\bootstrap.css" />
+    <Content Include="Styles\main.css" />
+    <Content Include="Styles\carousel.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Styles\less\alerts.less" />
+    <Content Include="Styles\less\badges.less" />
+    <Content Include="Styles\less\bootstrap.less" />
+    <Content Include="Styles\less\breadcrumbs.less" />
+    <Content Include="Styles\less\button-groups.less" />
+    <Content Include="Styles\less\buttons.less" />
+    <Content Include="Styles\less\carousel.less" />
+    <Content Include="Styles\less\close.less" />
+    <Content Include="Styles\less\code.less" />
+    <Content Include="Styles\less\component-animations.less" />
+    <Content Include="Styles\less\dropdowns.less" />
+    <Content Include="Styles\less\forms.less" />
+    <Content Include="Styles\less\glyphicons.less" />
+    <Content Include="Styles\less\grid.less" />
+    <Content Include="Styles\less\input-groups.less" />
+    <Content Include="Styles\less\jumbotron.less" />
+    <Content Include="Styles\less\labels.less" />
+    <Content Include="Styles\less\list-group.less" />
+    <Content Include="Styles\less\media.less" />
+    <Content Include="Styles\less\mixins.less" />
+    <Content Include="Styles\less\mixins\alerts.less" />
+    <Content Include="Styles\less\mixins\background-variant.less" />
+    <Content Include="Styles\less\mixins\border-radius.less" />
+    <Content Include="Styles\less\mixins\buttons.less" />
+    <Content Include="Styles\less\mixins\center-block.less" />
+    <Content Include="Styles\less\mixins\clearfix.less" />
+    <Content Include="Styles\less\mixins\forms.less" />
+    <Content Include="Styles\less\mixins\gradients.less" />
+    <Content Include="Styles\less\mixins\grid-framework.less" />
+    <Content Include="Styles\less\mixins\grid.less" />
+    <Content Include="Styles\less\mixins\hide-text.less" />
+    <Content Include="Styles\less\mixins\image.less" />
+    <Content Include="Styles\less\mixins\labels.less" />
+    <Content Include="Styles\less\mixins\list-group.less" />
+    <Content Include="Styles\less\mixins\nav-divider.less" />
+    <Content Include="Styles\less\mixins\nav-vertical-align.less" />
+    <Content Include="Styles\less\mixins\opacity.less" />
+    <Content Include="Styles\less\mixins\pagination.less" />
+    <Content Include="Styles\less\mixins\panels.less" />
+    <Content Include="Styles\less\mixins\progress-bar.less" />
+    <Content Include="Styles\less\mixins\reset-filter.less" />
+    <Content Include="Styles\less\mixins\reset-text.less" />
+    <Content Include="Styles\less\mixins\resize.less" />
+    <Content Include="Styles\less\mixins\responsive-visibility.less" />
+    <Content Include="Styles\less\mixins\size.less" />
+    <Content Include="Styles\less\mixins\tab-focus.less" />
+    <Content Include="Styles\less\mixins\table-row.less" />
+    <Content Include="Styles\less\mixins\text-emphasis.less" />
+    <Content Include="Styles\less\mixins\text-overflow.less" />
+    <Content Include="Styles\less\mixins\vendor-prefixes.less" />
+    <Content Include="Styles\less\modals.less" />
+    <Content Include="Styles\less\navbar.less" />
+    <Content Include="Styles\less\navs.less" />
+    <Content Include="Styles\less\normalize.less" />
+    <Content Include="Styles\less\pager.less" />
+    <Content Include="Styles\less\pagination.less" />
+    <Content Include="Styles\less\panels.less" />
+    <Content Include="Styles\less\popovers.less" />
+    <Content Include="Styles\less\print.less" />
+    <Content Include="Styles\less\progress-bars.less" />
+    <Content Include="Styles\less\responsive-embed.less" />
+    <Content Include="Styles\less\responsive-utilities.less" />
+    <Content Include="Styles\less\scaffolding.less" />
+    <Content Include="Styles\less\tables.less" />
+    <Content Include="Styles\less\theme.less" />
+    <Content Include="Styles\less\thumbnails.less" />
+    <Content Include="Styles\less\tooltip.less" />
+    <Content Include="Styles\less\type.less" />
+    <Content Include="Styles\less\utilities.less" />
+    <Content Include="Styles\less\variables.less" />
+    <Content Include="Styles\less\wells.less" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff2" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>51769</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:55070/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
